@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "sample-kafka-sharp.netstandard": {
+      "commandName": "Project",
+      "commandLineArgs": "--seeds \"52.35.61.218:9092\" --topics test "
+    }
+  }
+}

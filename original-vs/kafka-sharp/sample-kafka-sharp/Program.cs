@@ -231,6 +231,7 @@ dagfhefdghafdahfh",
                 Console.WriteLine("Syntax error in option {0}", curOpt);
                 Usage();
                 Environment.Exit(-1);
+                //Console.ReadLine();
             }
 
             var serializer = new StringSerializer();
